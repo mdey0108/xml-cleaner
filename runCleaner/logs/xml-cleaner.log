@@ -1,0 +1,40 @@
+2025-04-08 01:50:42.365 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - Starting XmlCleanerApplication v1.0.0 using Java 22.0.1 on DESKTOP-4LN2OOS with PID 15132 (M:\wkspc_apr2025\xml-cleaner\runCleaner\xml-cleaner-1.0.0.jar started by Indian in M:\wkspc_apr2025\xml-cleaner\runCleaner)
+2025-04-08 01:50:42.380 [main] DEBUG com.example.xmlcleaner.XmlCleanerApplication - Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-04-08 01:50:42.396 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 01:50:44.157 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - Started XmlCleanerApplication in 3.302 seconds (JVM running for 7.313)
+2025-04-08 01:50:44.173 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - Starting XML cleaner application
+2025-04-08 01:50:44.188 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - Processing folder: M:\wkspc_apr2025\xml-cleaner
+2025-04-08 01:50:44.188 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - Processing file: M:\wkspc_apr2025\xml-cleaner\pom.xml
+2025-04-08 01:50:44.204 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - Backup created: M:\wkspc_apr2025\xml-cleaner\backupfolder\pom.xml
+2025-04-08 01:50:44.251 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - No invalid characters found in file: M:\wkspc_apr2025\xml-cleaner\pom.xml
+2025-04-08 01:50:44.251 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - XML processing completed successfully
+2025-04-08 01:52:14.311 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - Starting XmlCleanerApplication v1.0.0 using Java 22.0.1 on DESKTOP-4LN2OOS with PID 17496 (M:\wkspc_apr2025\xml-cleaner\runCleaner\xml-cleaner-1.0.0.jar started by Indian in M:\wkspc_apr2025\xml-cleaner\runCleaner)
+2025-04-08 01:52:14.311 [main] DEBUG com.example.xmlcleaner.XmlCleanerApplication - Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-04-08 01:52:14.326 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 01:52:16.066 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - Started XmlCleanerApplication in 2.913 seconds (JVM running for 6.747)
+2025-04-08 01:52:16.082 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - Starting XML cleaner application
+2025-04-08 01:52:16.098 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - Processing folder: M:\wkspc_apr2025\xml-cleaner
+2025-04-08 01:52:16.098 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - Processing file: M:\wkspc_apr2025\xml-cleaner\pom.xml
+2025-04-08 01:52:16.113 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - Backup created: M:\wkspc_apr2025\xml-cleaner\backupfolder\pom.xml
+2025-04-08 01:52:16.160 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - No invalid characters found in file: M:\wkspc_apr2025\xml-cleaner\pom.xml
+2025-04-08 01:52:16.160 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - XML processing completed successfully
+2025-04-08 01:54:37.723 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - Starting XmlCleanerApplication v1.0.0 using Java 22.0.1 on DESKTOP-4LN2OOS with PID 11268 (M:\wkspc_apr2025\xml-cleaner\runCleaner\xml-cleaner-1.0.0.jar started by Indian in M:\wkspc_apr2025\xml-cleaner\runCleaner)
+2025-04-08 01:54:37.739 [main] DEBUG com.example.xmlcleaner.XmlCleanerApplication - Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-04-08 01:54:37.755 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 01:54:39.610 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - Started XmlCleanerApplication in 3.197 seconds (JVM running for 6.485)
+2025-04-08 01:54:39.610 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - Starting XML cleaner application
+2025-04-08 01:54:39.626 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - Processing folder: M:\wkspc_apr2025\xml-cleaner
+2025-04-08 01:54:39.642 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - Processing file: M:\wkspc_apr2025\xml-cleaner\pom.xml
+2025-04-08 01:54:39.657 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - Backup created: M:\wkspc_apr2025\xml-cleaner\backupfolder\pom.xml
+2025-04-08 01:54:39.704 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - No invalid characters found in file: M:\wkspc_apr2025\xml-cleaner\pom.xml
+2025-04-08 01:54:39.704 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - XML processing completed successfully
+2025-04-08 01:55:48.482 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - Starting XmlCleanerApplication v1.0.0 using Java 22.0.1 on DESKTOP-4LN2OOS with PID 15900 (M:\wkspc_apr2025\xml-cleaner\runCleaner\xml-cleaner-1.0.0.jar started by Indian in M:\wkspc_apr2025\xml-cleaner\runCleaner)
+2025-04-08 01:55:48.482 [main] DEBUG com.example.xmlcleaner.XmlCleanerApplication - Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-04-08 01:55:48.482 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 01:55:50.401 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - Started XmlCleanerApplication in 3.298 seconds (JVM running for 6.373)
+2025-04-08 01:55:50.401 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - Starting XML cleaner application
+2025-04-08 01:55:50.417 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - Processing folder: M:\wkspc_apr2025\xml-cleaner
+2025-04-08 01:55:50.417 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - Processing file: M:\wkspc_apr2025\xml-cleaner\pom.xml
+2025-04-08 01:55:50.432 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - Backup created: M:\wkspc_apr2025\xml-cleaner\backupfolder\pom.xml
+2025-04-08 01:55:50.463 [main] INFO  com.example.xmlcleaner.service.XmlProcessingService - No invalid characters found in file: M:\wkspc_apr2025\xml-cleaner\pom.xml
+2025-04-08 01:55:50.463 [main] INFO  com.example.xmlcleaner.XmlCleanerApplication - XML processing completed successfully
