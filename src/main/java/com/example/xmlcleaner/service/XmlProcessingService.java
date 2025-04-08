@@ -8,6 +8,9 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.charset.MalformedInputException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -68,6 +71,29 @@ public class XmlProcessingService {
                 .anyMatch(ext -> fileName.toLowerCase().endsWith("." + ext.toLowerCase()));
     }
 
+    // private void processFile(Path file) throws IOException {
+    // logger.info("Processing file: {}", file);
+
+    // // Backup original file if enabled
+    // if (properties.isBackup()) {
+    // backupFile(file);
+    // }
+
+    // // Read file content
+    // String content = Files.readString(file);
+
+    // // Remove invalid characters
+    // String cleanedContent = cleanContent(content);
+
+    // // Write cleaned content back to file
+    // if (!content.equals(cleanedContent)) {
+    // Files.writeString(file, cleanedContent);
+    // logger.info("File cleaned successfully: {}", file);
+    // } else {
+    // logger.info("No invalid characters found in file: {}", file);
+    // }
+    // }
+
     private void processFile(Path file) throws IOException {
         logger.info("Processing file: {}", file);
 
@@ -76,18 +102,24 @@ public class XmlProcessingService {
             backupFile(file);
         }
 
-        // Read file content
-        String content = Files.readString(file);
+        // Read file content (try UTF-8 first, then fallback to ANSI)
+        String content;
+        try {
+            content = Files.readString(file, StandardCharsets.UTF_8);
+        } catch (MalformedInputException e) {
+            logger.debug("UTF-8 failed, trying ANSI (Windows-1252) for file: {}", file);
+            content = Files.readString(file, Charset.forName("Windows-1252"));
+        }
 
-        // Remove invalid characters
+        // Clean the content
         String cleanedContent = cleanContent(content);
 
-        // Write cleaned content back to file
+        // Always save as UTF-8
         if (!content.equals(cleanedContent)) {
-            Files.writeString(file, cleanedContent);
-            logger.info("File cleaned successfully: {}", file);
+            Files.writeString(file, cleanedContent, StandardCharsets.UTF_8);
+            logger.info("File cleaned and converted to UTF-8: {}", file);
         } else {
-            logger.info("No invalid characters found in file: {}", file);
+            logger.info("No changes needed for file: {}", file);
         }
     }
 
